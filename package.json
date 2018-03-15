@@ -1,0 +1,12 @@
+{
+  "name": "custom-bootstrap",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.8.2"
+  }
+}
