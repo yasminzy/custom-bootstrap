@@ -4,9 +4,9 @@
   "private": true,
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^4.0.0"
+    "bootstrap": "^4.1.0"
   },
   "devDependencies": {
-    "node-sass": "^4.8.3"
+    "node-sass": "^4.9.0"
   }
 }
