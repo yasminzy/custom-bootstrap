@@ -1,38 +1,32 @@
 # Custom Bootstrap
 
-Customize [Bootstrap 4](https://getbootstrap.com) with [Parcel](https://parceljs.org).
+Customize [Bootstrap 5](https://getbootstrap.com/) with [Parcel](https://parceljs.org/).
 
 ## How to use
 
 1. Clone this repository.
 
-   ```bash
+   ```zsh
    git clone https://github.com/yasminzy/custom-bootstrap.git
    ```
 
-2. Install Parcel.
+1. Go to the repo directory and install the dependencies.
 
-   ```bash
-   npm i -g parcel-bundler
+   ```zsh
+   pnpm i
    ```
 
-3. Go to the repo directory and install the dependencies.
+1. Run Parcel's development server and go to [localhost:1234](localhost:1234).
 
-   ```bash
-   npm i
+   ```zsh
+   npx parcel index.html
    ```
 
-4. Run Parcel's development server and go to [localhost:1234](localhost:1234).
-
-   ```bash
-   parcel index.html
-   ```
-
-5. Edit `scss/custom.scss` or duplicate it and rename the file to your project name. Just make sure `index.js` imports the right file.
+1. Edit `scss/custom.scss`.
 
    - **Color**
 
-     You can either use the color from `scss/_material-color.scss` or your own color.
+     You can use either the color from `scss/_material-color.scss` or your own color.
 
    - **Variables**
 
@@ -40,12 +34,12 @@ Customize [Bootstrap 4](https://getbootstrap.com) with [Parcel](https://parceljs
 
    - **Components**
 
-     Comment the components you don't need.
+     Comment out the components you don't need.
 
-6. If you're done, stop the server with `Ctrl+C` and start the build mode.
+1. If you're done, stop the dev server and start the build mode.
 
-   ```bash
-   parcel build index.html
+   ```zsh
+   npx parcel build index.html
    ```
 
-   You can find the customized Bootstrap in `dist/custom-bootstrap.css`.
+   You can find the customized Bootstrap in `dist/index.[xxxxxxxx].css`.
