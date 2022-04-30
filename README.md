@@ -12,6 +12,8 @@ Customize [Bootstrap 5](https://getbootstrap.com/) with [Parcel](https://parcelj
 
 1. Go to the repo directory and install the dependencies.
 
+   If you are on Linux, use Node.js before version 18 because at the time of this writing, using that version will later result in an error: `No native build was found for platform=linux...`
+
    ```zsh
    pnpm i
    ```
