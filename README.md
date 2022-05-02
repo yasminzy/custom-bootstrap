@@ -21,7 +21,7 @@ Customize [Bootstrap 5](https://getbootstrap.com/) with [Parcel](https://parcelj
 1. Run Parcel's development server and go to [localhost:1234](localhost:1234).
 
    ```zsh
-   npx parcel index.html
+   pnpm dev
    ```
 
 1. Edit `scss/custom.scss`.
@@ -41,7 +41,7 @@ Customize [Bootstrap 5](https://getbootstrap.com/) with [Parcel](https://parcelj
 1. If you're done, stop the dev server and start the build mode.
 
    ```zsh
-   npx parcel build index.html
+   pnpm build
    ```
 
    You can find the customized Bootstrap in `dist/index.[xxxxxxxx].css`.
